@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+
+p {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 800;
+}
+
+body {
+  background-color: #202723;
+}
+
+.container {
+  max-width: 343px;
+  margin: 5em auto;
+  padding: 20px 5px;
+  background-color: #313A48;
+  text-align: center;
+}
+
+.advice-no {
+  font-size: 11px;
+  letter-spacing: 3.46px;
+  color: #53FFAA;
+}
+
+.advice {
+  font-size: 24px;
+  letter-spacing: -0.26px;
+  color: #CEE3E9;
+}
+
+
+.divider-desktop {
+  display: none;
+}
+
+.divider-mobile {
+  width: 295px;
+  height: 16px;
+  margin: 0px;
+}
+
+.dice-wrapper {
+  position: relative;
+  top: 52px;
+  left: 135px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 64px;
+  height: 64px;
+
+  border-radius: 50%;
+  background-color: #53FFAA;
+}
+
+.dice {
+  width: 24px;
+  height: 24px;
+}

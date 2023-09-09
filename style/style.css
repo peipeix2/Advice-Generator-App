@@ -12,8 +12,11 @@ body {
 }
 
 .container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   max-width: 343px;
-  margin: 5em auto;
   padding: 40px 20px 0px 20px;
   border-radius: 10px;
   background-color: #313A48;
@@ -47,7 +50,7 @@ body {
 .dice-wrapper {
   position: relative;
   top: 30px;
-  left: 119px;
+  left: 114px;
 
   display: flex;
   justify-content: center;

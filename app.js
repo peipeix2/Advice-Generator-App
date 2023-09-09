@@ -28,7 +28,4 @@ function printAdvice(data) {
 }
 
 // Event Listeners
-diceBtn.addEventListener('click', () => {
-  fetchData('https://api.adviceslip.com/advice')
-    .then(data => fetchAndPrint())
-})
+diceBtn.addEventListener('click', fetchAndPrint)

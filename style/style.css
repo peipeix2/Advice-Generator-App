@@ -68,3 +68,22 @@ body {
   width: 24px;
   height: 24px;
 }
+
+@media screen and (min-width: 1024px) {
+  .container {
+    max-width: 540px;
+    padding: 40px 40px 0px;
+  }
+
+  .divider-desktop {
+    display: inline;
+  }
+
+  .divider-mobile {
+    display: none;
+  }
+
+  .dice-wrapper {
+    left: 199px; 
+  }
+}

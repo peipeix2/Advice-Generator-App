@@ -14,7 +14,7 @@ body {
 .container {
   max-width: 343px;
   margin: 5em auto;
-  padding: 20px;
+  padding: 40px 20px 60px 20px;
   border-radius: 10px;
   background-color: #313A48;
   text-align: center;
@@ -45,7 +45,7 @@ body {
 }
 
 .dice-wrapper {
-  position: relative;
+  position: absolute;
   top: 52px;
   left: 120px;
 
